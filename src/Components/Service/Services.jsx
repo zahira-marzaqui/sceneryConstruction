@@ -134,7 +134,7 @@ function Services() {
                 <p>Faites appel à nos experts pour réaliser vos travaux en toute confiance.</p>
                 <div className="action-buttons">
                   <Link to="/devis" className="btn btn-primary">Obtenir un devis</Link>
-                  <Link to="/services" className="btn btn-secondary">Voir tous les services</Link>
+                  <Link to="/services" className="btn btn-secondary">Voir nos réalisations</Link>
                 </div>
 
               </div>

@@ -34,9 +34,9 @@ function Footer() {
           {/* Colonne 3 */}
           <div className="col-md-4 mb-3">
             <h5>Contact</h5>
-            <p><i className="bi bi-telephone"></i> +212 6 00 00 00 00</p>
+            <p><i className="bi bi-telephone"></i> +212663-039059</p>
             <p><i className="bi bi-envelope"></i> contact@scenery-construction.com</p>
-            <p><i className="bi bi-geo-alt"></i> Agadir, Maroc</p>
+            <p><i className="bi bi-geo-alt"></i> App 6 ,3éme etage Imm FM16, Agadir 80000</p>
           </div>
           
 
