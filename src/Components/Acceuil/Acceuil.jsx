@@ -96,7 +96,7 @@ function Acceuil() {
                 <div className="col-lg-6" data-aos="zoom-in" data-aos-delay={200}>
                   <div className="image-gallery">
                     <div className="primary-image">
-                      <img src="assets/img/Construction.png" alt="Modern Property" className="img-fluid" />
+                        <img src="assets/img/construction about.svg" alt="Modern Property" className="img-fluid" />
                       {/* <div className="experience-badge">
                         <div className="badge-content">
                           <div className="number"><span data-purecounter-start={0} data-purecounter-end={15} data-purecounter-duration={1} className="purecounter" />+</div>

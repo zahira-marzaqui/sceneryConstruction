@@ -15,7 +15,7 @@ function StepsSection() {
                                 <span className="hero-label">
                                     1
                                 </span>
-                                <img src="assets/img/steps/Screenshot_2025-07-21_154339-removebg-preview.png" className="d-block mx-auto m-2" alt="" />
+                                <img src="assets/img/construction1.svg" className="d-block mx-auto" alt="" />
                                 <h2>Partagez votre vision</h2>
                                 <p>Décrivez votre projet en ajoutant vos besoins, envies et inspirations (photos, croquis, etc.).</p>
                             </div>
@@ -23,15 +23,15 @@ function StepsSection() {
                                 <span className="hero-label">
                                     2
                                 </span>
-                                <img src="assets/img/steps/Screenshot_2025-07-21_154438-removebg-preview.png" className="d-block mx-auto" alt="" />
-                                <h2>Recevez et comparez les devis</h2>
+                                <img src="assets/img/Construction-pana 2.svg" className="d-block mx-auto m-3" width={220} height={200} alt="" />
+                                <h2 className="">Recevez et comparez les devis</h2>
                                 <p>Recevez et comparez des devis personnalisés de nos partenaires.</p>
                             </div>
                             <div className="col-lg-3 col-md-6 text-center">
                                 <span className="hero-label">
                                     3
                                 </span>
-                                <img src="assets/img/steps/Screenshot_2025-07-21_154445-removebg-preview.png" className="d-block mx-auto" alt="" />
+                                <img src="assets/img/Construction 3.svg" className="d-block mx-auto" alt="" />
                                 <h2>Lancez votre projet</h2>
                                 <p>Gérez votre chantier en ligne : signature, suivi, échanges, tout sur notre plateforme.</p>
                             </div>
