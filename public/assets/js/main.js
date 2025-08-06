@@ -113,19 +113,31 @@
    * Init swiper sliders
    */
   function initSwiper() {
-    document.querySelectorAll(".init-swiper").forEach(function(swiperElement) {
-      let config = JSON.parse(
-        swiperElement.querySelector(".swiper-config").innerHTML.trim()
-      );
+  document.querySelectorAll(".init-swiper").forEach(function (swiperElement) {
+    const configElement = swiperElement.querySelector(".swiper-config");
 
-      if (swiperElement.classList.contains("swiper-tab")) {
-        initSwiperWithCustomPagination(swiperElement, config);
-      } else {
-        new Swiper(swiperElement, config);
-      }
-    });
-  }
+    if (!configElement) {
+      console.warn("Pas de configuration trouvée pour ce swiper.");
+      return; // 🔐 Ignorer cet élément si config absente
+    }
 
-  window.addEventListener("load", initSwiper);
+    let config;
+    try {
+      config = JSON.parse(configElement.innerHTML.trim());
+    } catch (e) {
+      console.error("Erreur JSON dans .swiper-config :", e);
+      return; // 🔐 Éviter les plantages si le JSON est malformé
+    }
+
+    if (swiperElement.classList.contains("swiper-tab")) {
+      initSwiperWithCustomPagination(swiperElement, config);
+    } else {
+      new Swiper(swiperElement, config);
+    }
+  });
+}
+
+window.addEventListener("load", initSwiper);
+
 
 })();

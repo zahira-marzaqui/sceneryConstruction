@@ -16,6 +16,7 @@ import ProjetForm2 from './Components/Forms/ProjetForm2';
 import 'react-phone-input-2/lib/style.css';
 import Footer from './Components/footer/Footer';
 import Realisation from './Components/Realisation/Realisation';
+import RealisationDetails from './Components/Realisation/Realisation-details';
 
 
 
@@ -32,6 +33,7 @@ function App() {
           <Route path='/services' element={<Services></Services> } ></Route>
           <Route path='/about' element={<About></About> } ></Route>
           <Route path='/Réalisation' element={<Realisation></Realisation> } ></Route>
+          <Route path='/Réalisation-Details' element={<RealisationDetails></RealisationDetails> } ></Route>
           <Route path='/contact' element={<Contact></Contact> } ></Route>
           <Route path='/devis' element={<ProjetForm2></ProjetForm2> } ></Route>
           {/* <Route path='/ContactClient' element={<Contactclients></Contactclients> } ></Route> */}

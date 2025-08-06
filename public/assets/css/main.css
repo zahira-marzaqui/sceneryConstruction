@@ -4040,20 +4040,20 @@ section,
   line-height: 1.7;
 }
 
-.about .cta-section .action-buttons {
+.action-buttons {
   display: flex;
   gap: 1rem;
   justify-content: center;
 }
 
 @media (max-width: 576px) {
-  .about .cta-section .action-buttons {
+  .action-buttons {
     flex-direction: column;
     align-items: center;
   }
 }
 
-.about .cta-section .action-buttons .btn {
+.action-buttons .btn {
   padding: 1rem 2.5rem;
   font-weight: 600;
   border-radius: 50px;
@@ -4067,24 +4067,24 @@ section,
   align-items: center;
 }
 
-.about .cta-section .action-buttons .btn.btn-primary {
+.action-buttons .btn.btn-primary {
   background: var(--accent-color);
   color: var(--contrast-color);
 }
 
-.about .cta-section .action-buttons .btn.btn-primary:hover {
+.action-buttons .btn.btn-primary:hover {
   background: color-mix(in srgb, var(--accent-color), black 15%);
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-.about .cta-section .action-buttons .btn.btn-secondary {
+.action-buttons .btn.btn-secondary {
   background: transparent;
   color: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
 
-.about .cta-section .action-buttons .btn.btn-secondary:hover {
+.action-buttons .btn.btn-secondary:hover {
   background: var(--accent-color);
   color: var(--contrast-color);
   transform: translateY(-3px);
@@ -4988,35 +4988,34 @@ section,
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-.property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-next,
-.property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-prev {
-  width: 45px;
-  height: 45px;
-  background: rgba(255, 255, 255, 0.9);
+.swiper-button-next,
+.swiper-button-prev {
+  width: 30px;
+  height: 30px;
+  /* background: rgba(255, 255, 255, 0.9); */
   border-radius: 50%;
   margin-top: -22.5px;
   z-index: 10;
   color: var(--accent-color);
 }
 
-.property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-next:after,
-.property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-prev:after {
+.swiper-button-next:after,
+.swiper-button-prev:after {
   font-size: 16px;
   color: var(--accent-color);
   font-weight: 700;
 }
-
-.property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-next:hover,
-.property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-prev:hover {
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
   transform: scale(1.1);
 }
 
-.property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-next {
+.swiper-button-next {
   right: 20px;
   transition: 0.3s;
 }
 
-.property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-prev {
+.swiper-button-prev {
   left: 20px;
   transition: 0.3s;
 }
@@ -5358,8 +5357,8 @@ section,
 }
 
 .property-details .sticky-sidebar .agent-card .agent-contact {
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  padding-top: 15px;
+  /* border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%); */
+  padding-top: 5px;
   margin-bottom: 15px;
 }
 
@@ -5374,6 +5373,22 @@ section,
   margin-right: 10px;
   width: 16px;
 }
+.agent-actions .btn.projetbtn{
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  /* color: var(--accent-color); */
+  text-decoration: none;
+}
+.agent-actions .btn.projetbtn:hover{
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  text-decoration: none;
+  background-color: var(--contrast-color);
+
+}
+
+
 
 .property-details .sticky-sidebar .agent-card .agent-contact .contact-item span {
   font-size: 14px;
@@ -5398,7 +5413,9 @@ section,
 .property-details .sticky-sidebar .agent-card .btn.btn-outline {
   border-color: var(--accent-color);
   color: var(--accent-color);
+  text-decoration: none;
 }
+
 
 .property-details .sticky-sidebar .agent-card .btn.btn-outline:hover {
   background: var(--accent-color);
@@ -5618,23 +5635,23 @@ section,
 
 @media (max-width: 768px) {
 
-  .property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-next,
-  .property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-prev {
+  .swiper-button-next,
+  .swiper-button-prev {
     width: 35px;
     height: 35px;
     margin-top: -17.5px;
   }
 
-  .property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-next:after,
-  .property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-prev:after {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
     font-size: 14px;
   }
 
-  .property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-next {
+  .swiper-button-next {
     right: 10px;
   }
 
-  .property-details .property-hero .hero-image-container .property-gallery-slider .swiper-button-prev {
+  .swiper-button-prev {
     left: 10px;
   }
 
