@@ -1,6 +1,7 @@
 import About from "../about/About";
 import FormPublierProjet from "../Forms/FormPublierProjet";
 import Presta1 from "../prestataires/Presta1";
+import RealisationAcceuil from "../Realisation/Realisation-Acceuil";
 import StepsSection from "../StepsSection";
 import { Link } from 'react-router-dom';
 
@@ -92,8 +93,12 @@ function Acceuil() {
           {/* about */}
           <About></About>
 
-          {/* prestataire de l'acceuil */}
-          {/* <Presta1></Presta1> */}
+          <br/>
+          <br/>
+
+          {/* Realisation */}
+            
+            <RealisationAcceuil></RealisationAcceuil>
 
         </>
      );

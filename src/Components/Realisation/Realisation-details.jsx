@@ -8,20 +8,12 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
 const images = [
-  "assets/img/real-estate/property-exterior-7.webp",
-  "assets/img/real-estate/property-interior-7.webp",
-  "assets/img/real-estate/property-exterior-9.webp",
-  "assets/img/real-estate/features-5.webp",
-  "assets/img/real-estate/property-interior-8.webp",
-  "assets/img/real-estate/property-exterior-3.webp",
-  "assets/img/real-estate/property-interior-4.webp",
-  "assets/img/real-estate/features-2.webp",
-  "assets/img/real-estate/property-interior-5.webp",
-  "assets/img/real-estate/property-exterior-1.webp",
-  "assets/img/real-estate/features-3.webp",
-  "assets/img/real-estate/property-interior-2.webp",
-  "assets/img/real-estate/property-exterior-8.webp",
-  "assets/img/real-estate/features-1.webp"
+  "assets/img/realisation/3.webp",
+  "assets/img/realisation/3.webp",
+  "assets/img/realisation/3.webp",
+  "assets/img/realisation/3.webp",
+  "assets/img/realisation/3.webp",
+  "assets/img/realisation/3.webp",
 ];
 
 function RealisationDetails() {

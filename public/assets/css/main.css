@@ -723,7 +723,7 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
   position: relative;
 }
 
@@ -786,7 +786,7 @@ section,
   margin-bottom: 39px;
 }
 
-.hero .hero-content .content-header .hero-label {
+.hero-label {
   display: inline-flex;
   cursor: pointer;
   align-items: center;
@@ -801,13 +801,13 @@ section,
   transition: all 0.3s ease;
   border: 2px solid color-mix(in srgb, var(--accent-color), transparent 80%);
 }
-.hero .hero-content .content-header .hero-label:hover{
+.hero-label:hover{
   transform: translateY(-3px);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   /* color: var(--contrast-color); */
 }
 
-.hero .hero-content .content-header .hero-label i {
+.hero-label i {
   font-size: 16px;
 }
 .ProjetFormWrapper {
@@ -4027,13 +4027,13 @@ section,
   font-size: 0.9rem;
 }
 
-.about .cta-section h3 {
+.cta-section h3 {
   font-size: 2.2rem;
   margin-bottom: 1rem;
   color: var(--heading-color);
 }
 
-.about .cta-section p {
+.cta-section p {
   font-size: 1.1rem;
   color: color-mix(in srgb, var(--default-color), transparent 25%);
   margin-bottom: 2.5rem;
@@ -8941,6 +8941,83 @@ section,
     page-break-inside: avoid;
   }
 }
+/*--------------------------------------------------------------
+# Realisation Section
+--------------------------------------------------------------*/
+.realisation-hero{
+    background: color-mix(in srgb, var(--accent-color), transparent 95%);
+    font-size: 2.6rem;
+  
+}
+.realisation-hero h1{
+  font-weight: 600;
+  line-height: 1.3;
+  color: #000;
+
+}
+.filter .btn.outline{
+  border-color: var(--heading-color);
+  color: var(--heading-color);
+}
+.filter .btn.outline.active{
+  background-color: var(--heading-color);
+  border-color: var(--heading-color);
+  color: var(--contrast-color);
+}
+.realisation-tile {
+  height: 400px;
+  background: #000;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.realisation-tile img {
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s ease;
+}
+
+.realisation-tile .label {
+  bottom: 0;
+  left: 0;
+  /* background: rgba(0, 0, 0, 0.6); */
+  font-weight: bold;
+  font-size: 19px;
+
+  /* color: var(--accent-color); */
+}
+
+.realisation-tile .overlay {
+  position: absolute;
+  bottom: 0;
+  /* background: white; */
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: 0.4s ease;
+  padding: 20px;
+}
+.realisation-tile .overlay h5{
+  font-weight: bold;
+
+}
+
+.realisation-tile:hover .overlay {
+  transform: translateY(0%);
+}
+.realisation-tile:hover .label {
+  display: none;
+}
+
+.realisation-tile .overlay-content p {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
 
 /*--------------------------------------------------------------
 # Privacy Section
