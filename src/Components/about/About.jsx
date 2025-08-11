@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom';
 function About() {
     return ( 
         <>
+            <section className="about-hero text-center py-3 ">
+              <div className="container">
+                <h1 className="display-4">Construire l'avenir de l'entrepreneuriat</h1>
+                <p className="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, expedita!</p>
+              </div>
+            </section>
             <section id="home-about" className="home-about section">
             <div className="container" data-aos="fade-up" data-aos-delay={100}>
               <div className="row gy-5">
@@ -10,12 +16,7 @@ function About() {
                   <div className="image-gallery">
                     <div className="primary-image">
                         <img src="assets/img/construction about.svg" alt="Modern Property" className="img-fluid" />
-                      {/* <div className="experience-badge">
-                        <div className="badge-content">
-                          <div className="number"><span data-purecounter-start={0} data-purecounter-end={15} data-purecounter-duration={1} className="purecounter" />+</div>
-                          <div className="text">Years<br />Experience</div>
-                        </div>
-                      </div> */}
+                     
                     </div>
                     
                   </div>
@@ -23,29 +24,13 @@ function About() {
                 <div className="col-lg-6" data-aos="fade-left" data-aos-delay={300}>
                   <div className="content">
                     <div className="section-header">
-                      <span className="section-label">À propos de notre entreprise</span>
-                      <h2>Construire l'avenir de l'entrepreneuriat</h2>
+                      {/* <span className="section-label">À propos de notre entreprise</span> */}
+                      <h2>Notre mission</h2>
                     </div>
-                    <p>Nous révolutionnons la façon dont les entrepreneurs se connectent aux opportunités, rendant l'industrie de la construction plus efficace et transparente.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quibusdam dolores repellendus ratione corporis facilis esse possimus ex explicabo ipsum, sed perferendis eligendi voluptate culpa maxime beatae. Excepturi quaerat ab eaque consectetur optio repellendus doloremque, praesentium sequi deserunt porro magni culpa laborum ad ratione, nobis at rem necessitatibus molestias debitis.
+                    </p>
                     <div className="achievements-list">
-                      <div className="achievement-item">
-                        <div className="achievement-icon">
-                          <i className="bi bi-house-door" />
-                        </div>
-                        <div className="achievement-content">
-                          <h4><span data-purecounter-start={0} data-purecounter-end={3200} data-purecounter-duration={2} className="purecounter" />+ Properties Sold</h4>
-                          <p>Successfully completed transactions</p>
-                        </div>
-                      </div>
-                      <div className="achievement-item">
-                        <div className="achievement-icon">
-                          <i className="bi bi-people" />
-                        </div>
-                        <div className="achievement-content">
-                          <h4><span data-purecounter-start={0} data-purecounter-end={98} data-purecounter-duration={1} className="purecounter" />% Client Satisfaction</h4>
-                          <p>Happy customers recommend us</p>
-                        </div>
-                      </div>
+                      
                     </div>
                     <div className="action-section">
                       <a 
@@ -76,7 +61,83 @@ function About() {
                 </div>
               </div>
             </div>
-          </section>{/* /Home About Section */}
+            
+          </section>
+          <div className="container section-title-about" data-aos="fade-up">
+            <h2>Nos Valeurs </h2>
+          </div>
+          <section id="about" className="about section">
+            <div className="container" data-aos="fade-up" data-aos-delay={100}>
+              <div className="features-showcase" data-aos="fade-up" data-aos-delay={350}>
+                <div className="row gy-4">
+                  <div className="col-lg-3 col-md-6">
+                    <div className="feature-box-about" data-aos="flip-up" data-aos-delay={400}>
+                      <div className="feature-icon">
+                        <i className="bi bi-house-door" />
+                      </div>
+                      <div className="feature-content">
+                        <h4>Residential Sales</h4>
+                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-3 col-md-6">
+                    <div className="feature-box-about" data-aos="flip-up" data-aos-delay={450}>
+                      <div className="feature-icon">
+                        <i className="bi bi-building" />
+                      </div>
+                      <div className="feature-content">
+                        <h4>Commercial Properties</h4>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-3 col-md-6">
+                    <div className="feature-box-about" data-aos="flip-up" data-aos-delay={500}>
+                      <div className="feature-icon">
+                        <i className="bi bi-graph-up-arrow" />
+                      </div>
+                      <div className="feature-content">
+                        <h4>Investment Guidance</h4>
+                        <p>Totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-3 col-md-6">
+                    <div className="feature-box-about" data-aos="flip-up" data-aos-delay={550}>
+                      <div className="feature-icon">
+                        <i className="bi bi-shield-check" />
+                      </div>
+                      <div className="feature-content">
+                        <h4>Legal Support</h4>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>{/* End Features Showcase */}
+              
+            </div>
+
+            {/* CTA Section */}
+          <div className="cta-section mb-5" data-aos="fade-up" data-aos-delay={800}>
+            <div className="row justify-content-center text-center">
+              <div className="col-lg-8">
+                <h3>Prêt à lancer votre projet ?</h3>
+                <p>Faites appel à nos experts pour réaliser vos travaux en toute confiance.</p>
+                <div className="action-buttons">
+                  <Link to="/devis" className="btn btn-primary">Obtenir un devis</Link>
+                  <Link to="/services" className="btn btn-secondary">Voir nos réalisations</Link>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          {/* End CTA Section */}
+
+          </section>
+          
+      
 
         </>
     );

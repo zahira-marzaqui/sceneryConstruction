@@ -18,9 +18,11 @@ function Menu() {
         <nav id="navmenu" className={`navmenu ${menuOpen ? "show" : ""}`}>
           <ul>
             <li><NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>Accueil</NavLink></li>
+                        <li><NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>À propos</NavLink></li>
+
             <li><NavLink to="/services" className={({ isActive }) => isActive ? "active" : ""}>Services</NavLink></li>
-            <li><NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>À propos</NavLink></li>
-            <li><NavLink to="/Réalisation" className={({ isActive }) => isActive ? "active" : ""}>Réalisation</NavLink></li>
+                        <li><NavLink to="/Réalisation" className={({ isActive }) => isActive ? "active" : ""}>Réalisation</NavLink></li>
+
             <li><NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>Contactez-nous</NavLink></li>
           </ul>
           

@@ -100,10 +100,10 @@ function Realisation() {
               <div className="realisation-tile position-relative overflow-hidden">
                 <img src={item.image} className="img-fluid w-100" alt={item.titre} />
                 <div className="overlay">
-                  <div className="overlay-content">
+                  <div className="overlay-content text-center mt-2">
                     <h5>{item.titre}</h5>
                     <p>{item.description}</p>
-                    <Link to='/Réalisation-Details' className="btn btn-sm btn-light  btn-center">
+                    <Link to='/Réalisation-Details' className="btn btn-sm">
                       Voir plus
                     </Link>
                   </div>

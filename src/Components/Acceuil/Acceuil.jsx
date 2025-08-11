@@ -1,4 +1,5 @@
 import About from "../about/About";
+import AboutAcceuil from "../about/About-Acceuil";
 import FormPublierProjet from "../Forms/FormPublierProjet";
 import Presta1 from "../prestataires/Presta1";
 import RealisationAcceuil from "../Realisation/Realisation-Acceuil";
@@ -91,7 +92,7 @@ function Acceuil() {
           <StepsSection></StepsSection>
 
           {/* about */}
-          <About></About>
+          <AboutAcceuil></AboutAcceuil>
 
           <br/>
           <br/>
