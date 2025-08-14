@@ -6,21 +6,15 @@ function AboutAcceuil() {
             <section id="home-about" className="home-about section">
             <div className="container" data-aos="fade-up" data-aos-delay={100}>
               <div className="row gy-5">
-                <div className="col-lg-6" data-aos="zoom-in" data-aos-delay={200}>
+                <div className="col-lg-6 order-2 order-lg-1" data-aos="zoom-in" data-aos-delay={200}>
                   <div className="image-gallery">
                     <div className="primary-image">
                         <img src="assets/img/construction about.svg" alt="Modern Property" className="img-fluid" />
-                      {/* <div className="experience-badge">
-                        <div className="badge-content">
-                          <div className="number"><span data-purecounter-start={0} data-purecounter-end={15} data-purecounter-duration={1} className="purecounter" />+</div>
-                          <div className="text">Years<br />Experience</div>
-                        </div>
-                      </div> */}
                     </div>
                     
                   </div>
                 </div>
-                <div className="col-lg-6" data-aos="fade-left" data-aos-delay={300}>
+                <div className="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay={300}>
                   <div className="content">
                     <div className="section-header">
                       <span className="section-label">À propos de notre entreprise</span>

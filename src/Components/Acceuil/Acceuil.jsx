@@ -101,6 +101,49 @@ function Acceuil() {
             
             <RealisationAcceuil></RealisationAcceuil>
 
+            <br/>
+          <br/>
+           {/* Call To Action Section */}
+          <section className="call-to-action-1 call-to-action section" id="call-to-action">
+            <div className="cta-bg" style={{backgroundImage: 'url("assets/img/real-estate/showcase-3.webp")'}} />
+            <div className="container" data-aos="fade-up" data-aos-delay={100}>
+              <div className="row justify-content-center">
+                <div className="col-xl-6 col-lg-8">
+                  <div className="cta-content text-center">
+                    <h2>Besoin d’aide pour concrétiser votre idée  ?</h2>
+                    <p>Notre mission est de transformer vos espaces selon vos envies, en alliant savoir-faire, créativité et efficacité. Chaque projet est une opportunité de révéler le potentiel de votre habitat, avec un accompagnement personnalisé à chaque étape.</p>
+                    <div className="cta-buttons">
+                      <a className="btn btn-primary" href="https://wa.me/212663039059" 
+                          target="_blank" 
+                          rel="noopener noreferrer">Contactez-nous</a>
+                      <Link to="/devis" className="btn btn-outline"> Décrivez votre projet</Link>
+                    </div>
+                    <div className="cta-features">
+                      <div className="feature-item" data-aos="fade-up" data-aos-delay={200}>
+                        <i className="bi bi-telephone-fill" />
+                        <span>Consultation gratuite</span>
+                      </div>
+                      <div className="feature-item" data-aos="fade-up" data-aos-delay={250}>
+                        <i className="bi bi-clock-fill" />
+                        <span>Assistance 24h/24 et 7j/7</span>
+                      </div>
+                      <div className="feature-item" data-aos="fade-up" data-aos-delay={300}>
+                        <i className="bi bi-shield-check-fill" />
+                        <span>Experts de confiance</span>
+                      </div>
+                    </div>
+                  </div>{/* End CTA Content */}
+                </div>
+              </div>
+            </div>
+          </section>{/* /Call To Action Section */}
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+
         </>
      );
 }
