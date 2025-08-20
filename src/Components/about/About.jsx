@@ -5,7 +5,7 @@ function About() {
         <>
             <section className="about-hero text-center py-3 ">
               <div className="container">
-                <h1 className="display-4">Construire l'avenir de l'entrepreneuriat</h1>
+                <h1 className="display-4"> Construire l'avenir de l'entrepreneuriat</h1>
                 <p className="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, expedita!</p>
               </div>
             </section>
