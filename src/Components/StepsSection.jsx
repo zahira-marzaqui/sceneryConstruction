@@ -17,7 +17,7 @@ function StepsSection() {
                                 </span>
                                 <img src="assets/img/construction1.svg" className="d-block mx-auto" width={220} height={200} alt="" />
                                 <h2>Partagez votre vision</h2>
-                                <p>Décrivez votre projet en ajoutant vos besoins, envies et inspirations (photos, croquis, etc.).</p>
+                                <p>Décrivez votre projet en ajoutant vos besoins, envies et inspirations (photos, etc.).</p>
                             </div>
                             <div className="col-lg-3 h-100 p-4 col-md-6 text-center">
                                 <span className="hero-label">
