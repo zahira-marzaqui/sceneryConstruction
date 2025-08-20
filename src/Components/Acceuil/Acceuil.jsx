@@ -41,8 +41,8 @@ function Acceuil() {
                               <div className="rounded p-2 text-center content h-100">
                                 <div className="mb-3 text-orange">
                                   <i className="bi bi-house-door"></i>
-                                  <h5 className="fw-bold" >Construction maison</h5>
-                                <p>Services d'architecture experts pour la maison de vos rêves, garantissant une construction de qualité.</p>
+                                  <h5 className="fw-bold" >Construction</h5>
+                                <p>Services d'architecture experts pour la maison de vos rêves, garantissant un e construction de qualité.</p>
 
                                 </div>
                               </div>
@@ -65,8 +65,9 @@ function Acceuil() {
                             <div className="col-md-4 d-flex align-items-stretch card-container">
                               <div className="rounded p-2 text-center content h-100">
                                 <div className="mb-3 text-orange">
-                                  <i className="bi bi-droplet-half"></i>
-                                  <h5 className="fw-bold" >Construction de piscines</h5>
+                                  {/* <i className="bi bi-droplet-half"></i> */}
+                                  <img src="assets/img/amenagement.png" alt="" width={30} height={30} className="m-1" />
+                                  <h5 className="fw-bold" >Aménagement</h5>
                                 <p>Conception et construction de piscines sur mesure pour votre espace extérieur idéal.</p>
 
                                 </div>

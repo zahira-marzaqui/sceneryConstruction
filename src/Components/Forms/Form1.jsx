@@ -18,7 +18,7 @@ function Form1({ formData, setFormData }) {
                            <option value="chtouka-ait-baha">Chtouka Aït Baha</option>
                            <option value="tafraout">Tafraout</option>
                            <option value="biougra">Biougra</option>
-                           <option value="ouarzazate">Ouarzazate</option>
+                           <option value="ouarzazate">Marrakech</option>
           {/* autres options */}
         </select>
         <i className="bi bi-geo-alt field-icon" />
@@ -33,11 +33,10 @@ function Form1({ formData, setFormData }) {
           required
         >
           <option value="">Sélectionnez</option>
+                          <option value="villa">Villa</option>
                            <option value="Maison">Maison</option>
                            <option value="apartment">Appartement</option>
-                           <option value="condo">Condominium</option>
-                           <option value="villa">Villa</option>
-                           <option value="commercial">Commercial</option>
+                           <option value="commercial">Local Commercial</option>
         </select>
         <i className="bi bi-building field-icon" />
       </div>
@@ -51,8 +50,8 @@ function Form1({ formData, setFormData }) {
           required
         >
          <option value="">Sélectionnez</option>
-                     <option value="construction-maisons">Construction de maisons</option>
-                     <option value="renovation-amenagement">Rénovation et aménagement</option>
+                     <option value="construction-maisons">Construction</option>
+                     <option value="renovation-amenagement">Rénovation global</option>
                      <option value="menuiserie">Menuiserie</option>
                      <option value="electricite">Électricité</option>
                      <option value="plomberie">Plomberie</option>
