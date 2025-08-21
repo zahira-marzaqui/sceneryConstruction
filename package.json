@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.11.0",
     "bootstrap": "^5.3.7",
     "classnames": "^2.5.1",
     "mongoose": "^8.16.5",

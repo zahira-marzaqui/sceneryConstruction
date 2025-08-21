@@ -70,50 +70,40 @@ function About() {
             <div className="container" data-aos="fade-up" data-aos-delay={100}>
               <div className="features-showcase" data-aos="fade-up" data-aos-delay={350}>
                 <div className="row gy-4">
-                  <div className="col-lg-3 col-md-6">
+                  <div className="col-lg-4 col-md-6">
                     <div className="feature-box-about" data-aos="flip-up" data-aos-delay={400}>
                       <div className="feature-icon">
-                        <i className="bi bi-house-door" />
+                        <i class="bi bi-shield-check"></i>
                       </div>
                       <div className="feature-content">
-                        <h4>Residential Sales</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim.</p>
+                        <h4>Confiance</h4>
+                        <p>Nous instaurons la confiance en appliquant des processus de vérification stricts et des opérations transparentes.</p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-6">
+                  <div className="col-lg-4 col-md-6">
                     <div className="feature-box-about" data-aos="flip-up" data-aos-delay={450}>
                       <div className="feature-icon">
-                        <i className="bi bi-building" />
+                        <i class="bi bi-stars"></i>
                       </div>
                       <div className="feature-content">
-                        <h4>Commercial Properties</h4>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                        <h4>Excellence</h4>
+                        <p>Nous recherchons l’excellence dans chaque aspect de notre service, de l’expérience utilisateur à l’accompagnement.</p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-6">
+                  <div className="col-lg-4 col-md-6">
                     <div className="feature-box-about" data-aos="flip-up" data-aos-delay={500}>
                       <div className="feature-icon">
-                        <i className="bi bi-graph-up-arrow" />
+                        <i class="bi bi-lightbulb-fill"></i>
                       </div>
                       <div className="feature-content">
-                        <h4>Investment Guidance</h4>
-                        <p>Totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
+                        <h4>Innovation</h4>
+                        <p>Notre plateforme évolue en permanence pour s'adapter aux besoins changeants du secteur de la construction.</p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-3 col-md-6">
-                    <div className="feature-box-about" data-aos="flip-up" data-aos-delay={550}>
-                      <div className="feature-icon">
-                        <i className="bi bi-shield-check" />
-                      </div>
-                      <div className="feature-content">
-                        <h4>Legal Support</h4>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>{/* End Features Showcase */}
               

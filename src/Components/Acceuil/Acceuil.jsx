@@ -106,7 +106,7 @@ function Acceuil() {
           <br/>
            {/* Call To Action Section */}
           <section className="call-to-action-1 call-to-action section" id="call-to-action">
-            <div className="cta-bg" style={{backgroundImage: 'url("assets/img/real-estate/showcase-3.webp")'}} />
+            <div className="cta-bg" style={{backgroundImage: 'url("assets/img/img.png")'}} />
             <div className="container" data-aos="fade-up" data-aos-delay={100}>
               <div className="row justify-content-center">
                 <div className="col-xl-6 col-lg-8">
