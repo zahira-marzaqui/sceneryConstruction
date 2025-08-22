@@ -1,6 +1,7 @@
 import About from "../about/About";
 import AboutAcceuil from "../about/About-Acceuil";
 import FormPublierProjet from "../Forms/FormPublierProjet";
+import Partenaire from "../Partenaire/Partenaire";
 import Presta1 from "../prestataires/Presta1";
 import RealisationAcceuil from "../Realisation/Realisation-Acceuil";
 import StepsSection from "../StepsSection";
@@ -92,6 +93,8 @@ function Acceuil() {
           {/* Steps  */}
           <StepsSection></StepsSection>
 
+          <Partenaire></Partenaire>
+
           {/* about */}
           <AboutAcceuil></AboutAcceuil>
 
@@ -111,8 +114,8 @@ function Acceuil() {
               <div className="row justify-content-center">
                 <div className="col-xl-6 col-lg-8">
                   <div className="cta-content text-center">
-                    <h2>Besoin d’aide pour concrétiser votre idée  ?</h2>
-                    <p>Notre mission est de transformer vos espaces selon vos envies, en alliant savoir-faire, créativité et efficacité. Chaque projet est une opportunité de révéler le potentiel de votre habitat, avec un accompagnement personnalisé à chaque étape.</p>
+                    <h2 style={{ color: "white" }}>Besoin d’aide pour concrétiser votre idée  ?</h2>
+                    <p>Notre mission est de transformer vos espaces selon vos envies, en alliant créativité, savoir-faire et efficacité, pour révéler tout le potentiel de votre habitat.</p>
                     <div className="cta-buttons">
                       <a className="btn btn-primary" href="https://wa.me/212663039059" 
                           target="_blank" 
