@@ -1,10 +1,9 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 
 function Partenaire({
-  titleBrand = "Renovely",
-  imageUrl = "/assets/img/cta-outline.svg",
-  href = "/publier-projet",
-  onCta,
+  
 }) {
   return (
     <>
@@ -94,7 +93,9 @@ function Partenaire({
             cursor: pointer;
             z-index: 3;
           }
-          .titre-button{
+          .titre-button:hover{
+            color: #fff;
+
           }
 
           .cta-btn:hover {
@@ -158,9 +159,11 @@ function Partenaire({
           </div>
 
           <div className="cta-illustration">
-            <button className="cta-btn" type="button" onClick={onCta}>
-             <span className="titre-button">Devenir partenaire</span>  <span className="arrow">→</span>
-            </button>
+            <Link to="/partenariat" className="cta-btn" >
+                <span className="titre-button">Devenir partenaire</span>  <span className="arrow">→</span>
+
+            </Link>
+            
           </div>
 
       

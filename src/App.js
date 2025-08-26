@@ -17,6 +17,7 @@ import 'react-phone-input-2/lib/style.css';
 import Footer from './Components/footer/Footer';
 import Realisation from './Components/Realisation/Realisation';
 import RealisationDetails from './Components/Realisation/Realisation-details';
+import FormPartenaire from './Components/Partenaire/FormPartenaire';
 
 
 
@@ -36,6 +37,7 @@ function App() {
           <Route path='/Réalisation-Details' element={<RealisationDetails></RealisationDetails> } ></Route>
           <Route path='/contact' element={<Contact></Contact> } ></Route>
           <Route path='/devis' element={<ProjetForm2></ProjetForm2> } ></Route>
+          <Route path='/partenariat' element={<FormPartenaire></FormPartenaire> } ></Route>
           {/* <Route path='/ContactClient' element={<Contactclients></Contactclients> } ></Route> */}
          </Routes>
         <Footer></Footer>
