@@ -66,7 +66,8 @@ function Form() {
             <option value="">Sélectionnez</option>
             <option value="entreprise">Entreprise</option>
             <option value="entrepreneur">Entrepreneur</option>
-            <option value="crafter">Crafter</option>
+            <option value="crafter">Professionnel</option>
+            <option value="crafter">Autre..</option>
           </select>
         </div>
 
