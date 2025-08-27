@@ -27,6 +27,7 @@ function Footer() {
               <li><NavLink to="/" className="text-light">Accueil</NavLink></li>
               <li><NavLink to="/services" className="text-light">Services</NavLink></li>
               <li><NavLink to="/about" className="text-light">À propos</NavLink></li>
+              <li><NavLink to="/Réalisation" className="text-light">Réalisation</NavLink></li>
               <li><NavLink to="/contact" className="text-light">Contact</NavLink></li>
             </ul>
           </div>

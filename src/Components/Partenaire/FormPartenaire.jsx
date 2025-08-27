@@ -19,15 +19,7 @@ function FormPartenaire() {
                             <div className="property-search-form">
                                 <Form></Form>
 
-                                <button
-                                type="button"
-                                className="search-btn"
                                 
-                                >
-                              <span>
-                                  Envoyer
-                                </span>
-                                </button>
                             </div>
                             </div>
                         </div>

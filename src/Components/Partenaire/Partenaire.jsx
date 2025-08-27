@@ -101,6 +101,8 @@ function Partenaire({
           .cta-btn:hover {
             transform: scale(1.05);
             box-shadow: 0 14px 30px rgba(5, 5, 5, 0.35);
+            color: #fff;
+
           }
 
           /* Pour mobile : bouton centré en bas */
