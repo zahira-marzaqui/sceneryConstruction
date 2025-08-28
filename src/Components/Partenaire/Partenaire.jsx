@@ -106,18 +106,19 @@ function Partenaire({
           }
 
           /* Pour mobile : bouton centré en bas */
-          @media (max-width: 992px) {
+          @media (max-width: 576px) {
             .cta-illustration {
               position: relative;
               bottom: auto;
               right: auto;
               display: flex;
               justify-content: center;
-              margin-top: 1.5rem;
+              margin-top: 3rem;
             }
 
             .cta-btn {
-              width: 80%; /* Plus large sur mobile */
+              width: 300px; 
+              height:70px /* Plus large sur mobile */
             }
           }
 
@@ -129,11 +130,20 @@ function Partenaire({
           .cta-btn:active{ transform: translateY(0); }
           .cta-btn .arrow{ font-size: 1.2rem; line-height: 1; }
 
-          @media (max-width: 992px){
+          @media (max-width: 576px){
             .cta-card{ grid-template-columns: 1fr; }
-            .cta-illustration{ min-height: 220px; background-position: center right; }
+            .cta-illustration{ background-position: center right; }
             .cta-btn{ position: static; margin-top: 1.25rem; }
           }
+           @media (max-width: 576px){
+    
+         .cta-content, .cta-illustration{ margin-top: 0; }
+    .cta-content h2{ font-size: clamp(1.1rem, 6vw, 1.8rem); }
+    .cta-content p{ font-size: clamp(.9rem, 3.8vw, 1rem); }
+    .cta-card{ padding: 1rem; border-radius: 16px; }
+    .cta-btn{ width: 100%; max-width: 290px; }
+   
+             }
         `}</style>
 
         <div className=" cta-card">
